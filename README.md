@@ -20,7 +20,7 @@ The script `run_analysis.r` does the following:<br>
 * Output new data set as `tidy.txt`
 
 
-The following code will enable you to load the tidy data set as intended:<br>
+The following code will enable you to load the completed output data set as intended:<br>
 `address <- "https://s3.amazonaws.com/coursera-uploads/user-418b40549a63cf3a61388ae7/973500/asst-3/fe581070ec5f11e493ae33c80ac90dd1.txt"`<br>
 `address <- sub("^https", "http", address)`<br>
 `data <- read.table(url(address), header = TRUE)`<br>
