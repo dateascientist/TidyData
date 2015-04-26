@@ -19,19 +19,19 @@ The mean and std data was included by using variables with mean() or std()<br>
 The data set output to `tidy.txt` includes mean and standard deviation variables for the following:<br>
 (All 3 X,Y,Z directions included where applicable)<br>
 TimeBodyAcceleration<br>
-TimeGravityAcceleration<br>                 
+TimeGravityAcceleration<br>
 TimeBodyAccelerationJerk<br>
-TimeBodyGyro<br>                            
+TimeBodyGyro<br>
 TimeBodyGyroJerk<br>
-TimeBodyAccelerationMagnitude<br>            
+TimeBodyAccelerationMagnitude<br>
 TimeGravityAccelerationMagnitude<br>
-TimeBodyAccelerationJerkMagnitude<br>         
-TimeBodyGyroMagnitudeMean <br> 
-TimeBodyGyroJerkMagnitudeMean<br>                 
+TimeBodyAccelerationJerkMagnitude<br>
+TimeBodyGyroMagnitudeMean <br>
+TimeBodyGyroJerkMagnitudeMean<br>
 FrequencyBodyAcceleration<br>
-FrequencyBodyAccelerationJerk<br>         
+FrequencyBodyAccelerationJerk<br>
 FrequencyBodyGyro<br>
-FrequencyBodyAccelerationMagnitude<br>       
+FrequencyBodyAccelerationMagnitude<br>
 FrequencyBodyAccelerationJerkMagnitude<br>
-FrequencyBodyGyroMagnitude  <br>          
+FrequencyBodyGyroMagnitude<br>
 FrequencyBodyGyroJerkMagnitude<br>
