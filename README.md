@@ -1,9 +1,11 @@
 ## Getting and Cleaning Data - Project
 ### Instructions
 
-The included run_analysis.r file completes the necessary steps required for this
-project to provide a tidy data set in a text file using write.table(). I have chosen
-to present the tidy data in **wide format** as opposed to narrow.
+The data for this project can be found at:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+It is expected that this data is extracted to the root of working directory, where the `run_analysis.r`
+file should be run.
 
 The script `run_analysis.r` does the following:<br>
 
