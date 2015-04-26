@@ -9,6 +9,29 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
+### Data Transformation
+The tidy data is presented in a wide data form.<br>
+The mean and std data was included by using variables with mean() or std()<br>
+
+
 ### Data Output
 
-The data set output to `tidy.txt` includes mean and standard deviation variables for the following:
+The data set output to `tidy.txt` includes mean and standard deviation variables for the following:<br>
+(All 3 X,Y,Z directions included where applicable)<br>
+TimeBodyAcceleration
+TimeGravityAcceleration                  
+TimeBodyAccelerationJerk
+TimeBodyGyro                            
+TimeBodyGyroJerk
+TimeBodyAccelerationMagnitude            
+TimeGravityAccelerationMagnitude
+TimeBodyAccelerationJerkMagnitude         
+TimeBodyGyroMagnitudeMean  
+TimeBodyGyroJerkMagnitudeMean                 
+FrequencyBodyAcceleration
+FrequencyBodyAccelerationJerk         
+FrequencyBodyGyro
+FrequencyBodyAccelerationMagnitude       
+FrequencyBodyAccelerationJerkMagnitude
+FrequencyBodyGyroMagnitude            
+FrequencyBodyGyroJerkMagnitude
